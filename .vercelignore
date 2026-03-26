@@ -1,0 +1,14 @@
+# Exclude unnecessary files from Vercel deployment
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore build directories
+build/
+output/
+
+# Ignore logs
+*.log
+
+# Ignore local env files
+.env
