@@ -1,0 +1,63 @@
+.body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav {
+    background: #0056b3;
+    color: white;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #004494;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+    }
+}
