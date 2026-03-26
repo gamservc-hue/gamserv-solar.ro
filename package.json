@@ -1,0 +1,1 @@
+{\n  "name": "gamserv-solar.ro",\n  "version": "1.0.0",\n  "description": "A project for Vercel integration.",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js",\n    "dev": "vercel dev"\n  },\n  "author": "gamservc-hue",\n  "license": "MIT",\n  "dependencies": {\n    "vercel": "latest"\n  }\n}
